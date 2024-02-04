@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react';
+import UsernamePage from './component/UsernamePage.jsx';
+import ChatPage from './component/ChatPage.jsx';
 
 function App() {
+  const [username, setUsername] = useState(null);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {username ? <ChatPage username={username} /> : <UsernamePage setUsername={setUsername} />}
     </div>
   );
 }
