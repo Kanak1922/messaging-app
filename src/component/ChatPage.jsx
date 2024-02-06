@@ -7,24 +7,31 @@ import { Button, TextField, Container, Box } from '@mui/material';
 
 function ChatPage({ username }) {
   const [messages, setMessages] = useState([]);
-  const [client, setClient] = useState(null);
+  const [newClient, setNewClient] = useState(null);
   const messageInputRef = useRef();
   const [tempMessage, setTempMessages] = useState({});
-
+  const joinMessage = {
+    sender: username,
+    content: username+" connected",
+    type: 'CONNECT',
+  };
 
   useEffect(() => {
     var url = "ws://localhost:8080/ws";
     var client = Stomp.client(url);
     client.onConnect= ()=>{
-      const joinMessage = {
-        sender: username,
-        type: 'CONNECT',
-      };
+      
       client.publish({ destination: '/app/addUser', body: JSON.stringify(joinMessage) });
-      client.subscribe('/topic/public', message => {
+      client.subscribe('/topic/public',(message) => {
+        console.log("Message body ");
+        console.log(message.body);
+        
         const newMessage = JSON.parse(message.body);
-        setMessages(prevMessages => [...prevMessages, newMessage]);
+        console.log(newMessage);
 
+        console.log("new Message body");
+        console.log(newMessage.payload);
+        setMessages(prevMessages => [...prevMessages, newMessage.payload]);
       });
       console.log("connected to web socket.");
     };
@@ -33,14 +40,15 @@ function ChatPage({ username }) {
       if (client.connected) {
         const leaveMessage = {
           sender: username,
+          content: username+" disconnected",
           type: 'DISCONNECT',
         };
-        client.publish({ destination: '/app/addUser', body: JSON.stringify(leaveMessage) });
+        client.publish({ destination: '/app/addUser', body: JSON.stringify(leaveMessage)});
       }
     };
     
     client.activate();
-    setClient(client);
+    setNewClient(client);
 
     return () => {
       client.deactivate();
@@ -48,13 +56,14 @@ function ChatPage({ username }) {
   }, [username]);
 
   const sendMessage = () => {
-    if (messageInputRef.current.value && client) {
+    if (messageInputRef.current.value && newClient) {
       const chatMessage = {
         sender: username,
-        content: messageInputRef.value,
+        content: messageInputRef.current.value,
         type: 'CHAT',
       };
-      client.publish({ destination: '/app/sendMessage', body: JSON.stringify(chatMessage) });
+      setTempMessages(chatMessage);
+      newClient.publish({ destination: '/app/sendMessage', body: JSON.stringify(chatMessage) });
       messageInputRef.current.value = '';
     }
   };
@@ -62,19 +71,14 @@ function ChatPage({ username }) {
   return (
     <Container>
       <Box>
-        {messages.map((message, index) => (
-          <ChatMessage key={index} message={message} username={username} />
+        { 
+          messages.map((m, index) => (
+          <ChatMessage key={index} message={m} username={username} />
         ))}
-      
       <TextField inputRef={messageInputRef} placeholder="Type a message..." />
       <Button onClick={sendMessage}>Send</Button>
       </Box>
-      {/* <form onSubmit={sendMessage}>
-        <TextField inputRef={messageInputRef} placeholder="Type a message..." />
-        <Button type="submit">Send</Button>
-      </form> */}
     </Container>
   );
 }
-
 export default ChatPage;

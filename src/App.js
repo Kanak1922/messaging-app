@@ -3,7 +3,7 @@ import UsernamePage from './component/UsernamePage.jsx';
 import ChatPage from './component/ChatPage.jsx';
 
 function App() {
-  const [username, setUsername] = useState(null);
+  const [username, setUsername] = useState("");
 
   return (
     <div>
