@@ -2,8 +2,6 @@ import Avatar from 'react-avatar';
 import { Box } from '@mui/material';
 
 function ChatMessage({ message, username }) {
-  console.log("insidee chat Message app ");
-  console.log(message);
   return (
     <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: message.sender === username ? 'flex-end' : 'flex-start', margin: '10px 0' }}>
       <Box sx={{ display: 'flex', flexDirection: message.sender === username ? 'row-reverse' : 'row', alignItems: 'center', gap: 1 }}>
