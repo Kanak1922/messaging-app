@@ -4,7 +4,7 @@ import EmojiPicker from 'emoji-picker-react';
 import ChatMessage from "./ChatMessage.jsx";
 import { Button, TextField, Container, Box } from '@mui/material';
 
-function ChatPage({ username }) {
+function ChatWindow({ username }) {
 
   const lastElementRef = useRef(null);
   const [messageInput, setMessageInput] = useState("");
@@ -86,7 +86,6 @@ function ChatPage({ username }) {
 
   return (
     <Container
-      id={"container__chats"}
       style={{
         height: "100%",
         width: "100%",
@@ -94,8 +93,6 @@ function ChatPage({ username }) {
         flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
-        border: "1px solid gray",
-        borderRadius: "8px"
       }}>
       <Box
         style={{
@@ -206,4 +203,4 @@ function ChatPage({ username }) {
     </Container>
   );
 }
-export default ChatPage;
+export default ChatWindow;

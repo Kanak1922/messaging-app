@@ -1,0 +1,194 @@
+<svg id="SvgjsSvg1001" width="288" height="288" xmlns="http://www.w3.org/2000/svg" version="1.1"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs">
+    <defs id="SvgjsDefs1002"></defs>
+    <g id="SvgjsG1008">
+        <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" viewBox="30 30 40 40"
+            width="288" height="288">
+            <defs>
+                <filter id="a" width="300%" height="300%" x="-100%" y="-100%"
+                    color-interpolation-filters="sRGB">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="3"></feGaussianBlur>
+                    <feComponentTransfer result="cutoff">
+                        <feFuncA intercept="-40" slope="60" type="linear"></feFuncA>
+                    </feComponentTransfer>
+                </filter>
+            </defs>
+            <g filter="url(#a)" fill="#a7ff83" class="color000 svgShape"
+                data-darkreader-inline-fill="" style="--darkreader-inline-fill: #3b7d00;">
+                <animateTransform attributeName="transform" dur="1.5s" keyTimes="0;1"
+                    repeatCount="indefinite" type="rotate" values="0 50 50;360 50 50"></animateTransform>
+                <g fill="#a7ff83" class="color000 svgShape" data-darkreader-inline-fill=""
+                    style="--darkreader-inline-fill: #9dff75;">
+                    <circle r="1" fill="#17b978" transform="matrix(.3 0 0 .3 50 36)"
+                        class="colorgray svgShape" data-darkreader-inline-fill=""
+                        style="--darkreader-inline-fill: #50e9ac;"></circle>
+                    <animateTransform attributeName="transform" calcMode="spline" dur=".8"
+                        keySplines="0.73 0 0.63 1" keyTimes="0;1" repeatCount="indefinite"
+                        type="rotate" values="0 50 50;360 50 50"></animateTransform>
+                </g>
+                <g fill="#a7ff83" class="color000 svgShape" data-darkreader-inline-fill=""
+                    style="--darkreader-inline-fill: #9dff75;">
+                    <circle r="2" fill="#17b978" transform="matrix(.3 0 0 .3 50 36)"
+                        class="colorgray svgShape" data-darkreader-inline-fill=""
+                        style="--darkreader-inline-fill: #50e9ac;"></circle>
+                    <animateTransform attributeName="transform" calcMode="spline" dur=".8"
+                        keySplines="0.7 0 0.6 1" keyTimes="0;1" repeatCount="indefinite"
+                        type="rotate" values="0 50 50;360 50 50"></animateTransform>
+                </g>
+                <g fill="#a7ff83" class="color000 svgShape" data-darkreader-inline-fill=""
+                    style="--darkreader-inline-fill: #9dff75;">
+                    <circle r="3" fill="#17b978" transform="matrix(.3 0 0 .3 50 36)"
+                        class="colorgray svgShape" data-darkreader-inline-fill=""
+                        style="--darkreader-inline-fill: #50e9ac;"></circle>
+                    <animateTransform attributeName="transform" calcMode="spline" dur=".8"
+                        keySplines="0.66 0 0.56 1" keyTimes="0;1" repeatCount="indefinite"
+                        type="rotate" values="0 50 50;360 50 50"></animateTransform>
+                </g>
+                <g fill="#a7ff83" class="color000 svgShape" data-darkreader-inline-fill=""
+                    style="--darkreader-inline-fill: #9dff75;">
+                    <circle r="4" fill="#17b978" transform="matrix(.3 0 0 .3 50 36)"
+                        class="colorgray svgShape" data-darkreader-inline-fill=""
+                        style="--darkreader-inline-fill: #50e9ac;"></circle>
+                    <animateTransform attributeName="transform" calcMode="spline" dur=".8"
+                        keySplines="0.63 0 0.53 1" keyTimes="0;1" repeatCount="indefinite"
+                        type="rotate" values="0 50 50;360 50 50"></animateTransform>
+                </g>
+                <g fill="#a7ff83" class="color000 svgShape" data-darkreader-inline-fill=""
+                    style="--darkreader-inline-fill: #9dff75;">
+                    <circle r="5" fill="#17b978" transform="matrix(.3 0 0 .3 50 36)"
+                        class="colorgray svgShape" data-darkreader-inline-fill=""
+                        style="--darkreader-inline-fill: #50e9ac;"></circle>
+                    <animateTransform attributeName="transform" calcMode="spline" dur=".8"
+                        keySplines="0.6 0 0.5 1" keyTimes="0;1" repeatCount="indefinite"
+                        type="rotate" values="0 50 50;360 50 50"></animateTransform>
+                </g>
+                <g fill="#a7ff83" class="color000 svgShape" data-darkreader-inline-fill=""
+                    style="--darkreader-inline-fill: #3b7d00;">
+                    <circle r="6" fill="#17b978" transform="matrix(.3 0 0 .3 50 36)"
+                        class="colorgray svgShape" data-darkreader-inline-fill=""
+                        style="--darkreader-inline-fill: #129460;"></circle>
+                    <animateTransform attributeName="transform" calcMode="spline" dur=".8"
+                        keySplines="0.56 0 0.46 1" keyTimes="0;1" repeatCount="indefinite"
+                        type="rotate" values="0 50 50;360 50 50"></animateTransform>
+                </g>
+                <g fill="#a7ff83" class="color000 svgShape" data-darkreader-inline-fill=""
+                    style="--darkreader-inline-fill: #3b7d00;">
+                    <circle r="7" fill="#17b978" transform="matrix(.3 0 0 .3 50 3)"
+                        class="colorgray svgShape" data-darkreader-inline-fill=""
+                        style="--darkreader-inline-fill: #129460;"></circle>
+                    <animateTransform attributeName="transform" calcMode="spline" dur=".8"
+                        keySplines="0.53 0 0.43 1" keyTimes="0;1" repeatCount="indefinite"
+                        type="rotate" values="0 50 50;360 50 50"></animateTransform>
+                </g>
+                <g fill="#a7ff83" class="color000 svgShape" data-darkreader-inline-fill=""
+                    style="--darkreader-inline-fill: #3b7d00;">
+                    <circle r="8" fill="#17b978" transform="matrix(.3 0 0 .3 50 36)"
+                        class="colorgray svgShape" data-darkreader-inline-fill=""
+                        style="--darkreader-inline-fill: #129460;"></circle>
+                    <animateTransform attributeName="transform" calcMode="spline" dur=".8"
+                        keySplines="0.5 0 0.4 1" keyTimes="0;1" repeatCount="indefinite"
+                        type="rotate" values="0 50 50;360 50 50"></animateTransform>
+                </g>
+                <g fill="#a7ff83" class="color000 svgShape" data-darkreader-inline-fill=""
+                    style="--darkreader-inline-fill: #3b7d00;">
+                    <circle r="9" fill="#17b978" transform="matrix(.3 0 0 .3 50 36)"
+                        class="colorgray svgShape" data-darkreader-inline-fill=""
+                        style="--darkreader-inline-fill: #129460;"></circle>
+                    <animateTransform attributeName="transform" calcMode="spline" dur=".8"
+                        keySplines="0.46 0 0.36 1" keyTimes="0;1" repeatCount="indefinite"
+                        type="rotate" values="0 50 50;360 50 50"></animateTransform>
+                </g>
+                <g fill="#a7ff83" class="color000 svgShape" data-darkreader-inline-fill=""
+                    style="--darkreader-inline-fill: #3b7d00;">
+                    <circle r="10" fill="#17b978" transform="matrix(.3 0 0 .3 50 36)"
+                        class="colorgray svgShape" data-darkreader-inline-fill=""
+                        style="--darkreader-inline-fill: #129460;"></circle>
+                    <animateTransform attributeName="transform" calcMode="spline" dur=".8"
+                        keySplines="0.43 0 0.33 1" keyTimes="0;1" repeatCount="indefinite"
+                        type="rotate" values="0 50 50;360 50 50"></animateTransform>
+                </g>
+                <g fill="#a7ff83" class="color000 svgShape" data-darkreader-inline-fill=""
+                    style="--darkreader-inline-fill: #3b7d00;">
+                    <circle r="11" fill="#17b978" transform="matrix(.3 0 0 .3 50 36)"
+                        class="colorgray svgShape" data-darkreader-inline-fill=""
+                        style="--darkreader-inline-fill: #129460;"></circle>
+                    <animateTransform attributeName="transform" calcMode="spline" dur=".8"
+                        keySplines="0.4 0 0.3 1" keyTimes="0;1" repeatCount="indefinite"
+                        type="rotate" values="0 50 50;360 50 50"></animateTransform>
+                </g>
+                <g fill="#a7ff83" class="color000 svgShape" data-darkreader-inline-fill=""
+                    style="--darkreader-inline-fill: #3b7d00;">
+                    <circle r="12" fill="#17b978" transform="matrix(.3 0 0 .3 50 36)"
+                        class="colorgray svgShape" data-darkreader-inline-fill=""
+                        style="--darkreader-inline-fill: #129460;"></circle>
+                    <animateTransform attributeName="transform" calcMode="spline" dur=".8"
+                        keySplines="0.36 0 0.26 1" keyTimes="0;1" repeatCount="indefinite"
+                        type="rotate" values="0 50 50;360 50 50"></animateTransform>
+                </g>
+                <g fill="#a7ff83" class="color000 svgShape" data-darkreader-inline-fill=""
+                    style="--darkreader-inline-fill: #3b7d00;">
+                    <circle r="13" fill="#17b978" transform="matrix(.3 0 0 .3 50 36)"
+                        class="colorgray svgShape" data-darkreader-inline-fill=""
+                        style="--darkreader-inline-fill: #129460;"></circle>
+                    <animateTransform attributeName="transform" calcMode="spline" dur=".8"
+                        keySplines="0.33 0 0.23 1" keyTimes="0;1" repeatCount="indefinite"
+                        type="rotate" values="0 50 50;360 50 50"></animateTransform>
+                </g>
+                <g fill="#a7ff83" class="color000 svgShape" data-darkreader-inline-fill=""
+                    style="--darkreader-inline-fill: #3b7d00;">
+                    <circle r="14" fill="#17b978" transform="matrix(.3 0 0 .3 50 36)"
+                        class="colorgray svgShape" data-darkreader-inline-fill=""
+                        style="--darkreader-inline-fill: #129460;"></circle>
+                    <animateTransform attributeName="transform" calcMode="spline" dur=".8"
+                        keySplines="0.30 0 0.2 1" keyTimes="0;1" repeatCount="indefinite"
+                        type="rotate" values="0 50 50;360 50 50"></animateTransform>
+                </g>
+                <g fill="#a7ff83" class="color000 svgShape" data-darkreader-inline-fill=""
+                    style="--darkreader-inline-fill: #3b7d00;">
+                    <circle r="15" fill="#17b978" transform="matrix(.3 0 0 .3 50 36)"
+                        class="colorgray svgShape" data-darkreader-inline-fill=""
+                        style="--darkreader-inline-fill: #129460;"></circle>
+                    <animateTransform attributeName="transform" calcMode="spline" dur=".8"
+                        keySplines="0.26 0 0.16 1" keyTimes="0;1" repeatCount="indefinite"
+                        type="rotate" values="0 50 50;360 50 50"></animateTransform>
+                </g>
+                <g fill="#a7ff83" class="color000 svgShape" data-darkreader-inline-fill=""
+                    style="--darkreader-inline-fill: #3b7d00;">
+                    <circle r="16" fill="#17b978" transform="matrix(.3 0 0 .3 50 36)"
+                        class="colorgray svgShape" data-darkreader-inline-fill=""
+                        style="--darkreader-inline-fill: #129460;"></circle>
+                    <animateTransform attributeName="transform" calcMode="spline" dur=".8"
+                        keySplines="0.23 0 0.13 1" keyTimes="0;1" repeatCount="indefinite"
+                        type="rotate" values="0 50 50;360 50 50"></animateTransform>
+                </g>
+                <g fill="#a7ff83" class="color000 svgShape" data-darkreader-inline-fill=""
+                    style="--darkreader-inline-fill: #3b7d00;">
+                    <circle r="17" fill="#071a52" transform="matrix(.3 0 0 .3 50 36)"
+                        class="color060606 svgShape" data-darkreader-inline-fill=""
+                        style="--darkreader-inline-fill: #061542;"></circle>
+                    <animateTransform attributeName="transform" calcMode="spline" dur=".8"
+                        keySplines="0.2 0 0.1 1" keyTimes="0;1" repeatCount="indefinite"
+                        type="rotate" values="0 50 50;360 50 50"></animateTransform>
+                </g>
+                <g fill="#a7ff83" class="color000 svgShape" data-darkreader-inline-fill=""
+                    style="--darkreader-inline-fill: #3b7d00;">
+                    <circle r="18" fill="#071a52" transform="matrix(.3 0 0 .3 50 36)"
+                        class="color060606 svgShape" data-darkreader-inline-fill=""
+                        style="--darkreader-inline-fill: #061542;"></circle>
+                    <animateTransform attributeName="transform" calcMode="spline" dur=".8"
+                        keySplines="0.16 0 0.06 1" keyTimes="0;1" repeatCount="indefinite"
+                        type="rotate" values="0 50 50;360 50 50"></animateTransform>
+                </g>
+                <g fill="#a7ff83" class="color000 svgShape" data-darkreader-inline-fill=""
+                    style="--darkreader-inline-fill: #3b7d00;">
+                    <circle r="19" fill="#071a52" transform="matrix(.3 0 0 .3 50 36)"
+                        class="color060606 svgShape" data-darkreader-inline-fill=""
+                        style="--darkreader-inline-fill: #061542;"></circle>
+                    <animateTransform attributeName="transform" calcMode="spline" dur=".8"
+                        keySplines="0.13 0 0.03 1" keyTimes="0;1" repeatCount="indefinite"
+                        type="rotate" values="0 50 50;360 50 50"></animateTransform>
+                </g>
+            </g>
+        </svg>
+    </g>
+</svg>
