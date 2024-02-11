@@ -17,18 +17,33 @@ function UsernamePage({ setUsername }) {
   };
 
   return (
-    <Container>
-      <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center" mt={2}>
+    <Container style={{
+      height: "100%",
+      width: "100%",
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "center",
+      alignItems: "center"
+    }}>
+      <Box
+        style={{
+          mt: 2,
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          alignItems: "center"
+        }}
+      >
         <h1>Type your username</h1>
         <form onSubmit={handleUsernameSubmit}>
           <Box display="flex" alignItems="stretch">
             <TextField
               sx={{
-                color: 'white', '& .MuiOutlinedInput-notchedOutline': { borderColor: 'gray' },
+                color: 'black', '& .MuiOutlinedInput-notchedOutline': { borderColor: 'gray' },
                 width: '300px',
                 '& .MuiOutlinedInput-root': {
-                    borderRadius: '36px',
-                    '& fieldset': {
+                  borderRadius: '36px',
+                  '& fieldset': {
                     borderColor: 'gray',
                   },
                   '& input': {
@@ -36,7 +51,10 @@ function UsernamePage({ setUsername }) {
                   },
                 },
               }}
-              inputProps={{ style: { color: 'white' } }}
+              inputProps={{
+                style: { color: 'black' }
+              }}
+              autoComplete={"off"}
               variant="outlined"
               placeholder="Username"
               value={inputUsername}
